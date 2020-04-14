@@ -3,14 +3,27 @@
     
 body{
     background-color: cornsilk;
-    
-    
-  background-image: url('https://previews.123rf.com/images/nadianb/nadianb1807/nadianb180700114/104876121-food-cooking-ingredients-background-pasta-tomatoes-herbs-and-vegetables-on-white-table-top-view-with.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+    }
 
-}
+div {
+    display: block;
+    position: relative;
+  }
+  
+  div::after {
+    content: "";
+    background-image: url('https://previews.123rf.com/images/nadianb/nadianb1807/nadianb180700114/104876121-food-cooking-ingredients-background-pasta-tomatoes-herbs-and-vegetables-on-white-table-top-view-with.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
     
 
 header > h1{
@@ -30,7 +43,7 @@ header > h1{
 }
     
 h3{
-   background-color: rgb(196, 238, 234);
+   background-color: rgb(114, 226, 215);
    color: rgb(10, 1, 12) ;
 }
 #title{
@@ -45,7 +58,7 @@ h3{
     height: 2.75em;
     font-size: 1.5em;
     border-radius: 0.3em;
-    color: gold;
+    color: rgb(77, 5, 126);
     display: block;
 }
 footer{
