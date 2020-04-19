@@ -25,7 +25,7 @@ div::after {
     background-attachment: fixed;
     filter: blur(2px);
     background-size: 100% 100%;  
-    opacity: 0.3;
+    opacity: 0.25;
     top: 0;
     left: 0;
     bottom: 0;
@@ -42,14 +42,19 @@ div::after {
    font-weight: bolder;
     fill-opacity: 1;
    z-index: 5;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h3{
   
   color: rgb(2, 1, 0);
   font-size: 50px;
+  font-family: cursive;
+  font-weight: 900;
 }
 h5{
   position: relative;
   color: rgb(20, 11, 1);
   font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
 }   

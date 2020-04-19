@@ -2,23 +2,23 @@
     var questions = [{
       question: "In Thor: Ragnarok, who is Thor's opponent in the gladiator ring on the planet Sakaar?",
       choices: ["loki", "thanos", "hela", "hulk"],
-      correctAnswer: "hulk"
+      correctAnswer: 3
     }, {
       question: "Which Avenger started out as a carnival sideshow act billed as The Worlds Greatest Marksman.?",
       choices: ["black widow", "iron man", "Hawkeye", "Dr.stepehn strange" ],
-      correctAnswer: "Hawkeye"
+      correctAnswer: 2
     }, {
       question: "Whose entire skeletal system was fused with the metal adamantium?",
       choices: ["hulk", "wolverine", "thor", "spider man" ],
-      correctAnswer: "wolverine"
+      correctAnswer: 1
     }, {
       question: "Which one of the following has a keen sense of smell?",
       choices: ["hulk", "wolverine", "spider man", "black widow"],
-      correctAnswer: "wolverine"
+      correctAnswer: 1
     }, {
       question: "Who was born with their powers?",
       choices: ["bruce banner", "tony stark", "steve rogers", "mystique"],
-      correctAnswer: "mystique"
+      correctAnswer: 3
     }];
     
     var questionCounter = 0; //Tracks question number
