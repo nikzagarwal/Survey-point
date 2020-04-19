@@ -1531,8 +1531,9 @@ width: 100% !important;
      font-weight: bolder;
  }
 
-  
-
+div::after{
+opacity=0.3
+}
 
  
   

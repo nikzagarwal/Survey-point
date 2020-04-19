@@ -10,6 +10,8 @@
   <!-- <link rel="stylesheet" href="custom.css"> -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="contact.css">
+  
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -28,7 +30,7 @@
   <title>Survey Point</title>
 </head>
 
-<body>
+<body style="background-color: blanchedalmond;">
 
   <!-- HEADER SECTION STARTS-->
 
@@ -66,101 +68,126 @@
       </div>
     </nav>
   </header>
-
+  <br>
   <!-- HEADER SECTION ENDS-->
-  
-
-
-    <div class="container mt-5 pt-3 text-center ">
-      <div class="row">
-        <h2 class="ml-3 ">Get In Touch</h2>
+  <div class="new" style="background-image: url(./images/hero.jpg); color: #fff; font-weight: bolder;opacity: 0.8;">
+    
+    <div class="container text-center">
+      <h2 style="font-family: 'Times New Roman', Times, serif; font-size: xx-large;">
+        WHAT DRIVES US
+      </h2>
+      <div class="col-md-12 col-md-offset-2">
+        <div class="red-border">
+          &nbsp;
+        </div>
+        <p class="ct-u-size22 ct-u-fontWeight300 marginTop40">
+          We believe that you have the power to influence some of the world's largest brands,share your
+          insights and be rewarded.
+        </p>
       </div>
+    </div>
+
+    <div>
+      <h2 style="margin-top:2.5em;margin-bottom: 1em;" class="h1-responsive font-weight-bold text-center my-4">CONTACT
+        US
+      </h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5" style="margin-bottom: 3em;">Do you have any
+        questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
 
     </div>
-    <div class="container">
-      <div class="alert " id="message-box">
-      </div>
-      <div id="contact-form-result" data-notify-type="success"
-        data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+  </div>
+  <div class="container mt-5 pt-3 text-center ">
+    <div class="row">
+      <h2 class="ml-3 ">Get In Touch</h2>
     </div>
-    <form class="nobottommargin" id="template-contactform" name="template-contactform" action="php/contact-form.php"
-      method="post">
 
-      <div class="container mt-5">
+  </div>
+  <div class="container">
+    <div class="alert " id="message-box">
+    </div>
+    <div id="contact-form-result" data-notify-type="success"
+      data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+  </div>
+  <form class="nobottommargin" id="template-contactform" name="template-contactform" action="php/contact-form.php"
+    method="post">
 
-        <div class="form-group">
-          <label class="control-label col-sm-4" for="template-contactform-name">Name</label>
-          <div class="col-sm-10">
-            <input type="text" id="template-contactform-name" name="template-contactform-name" class="form-control"
-              placeholder="Enter your name" required />
-          </div>
+    <div class="container mt-5">
+
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="template-contactform-name">Name</label>
+        <div class="col-sm-10">
+          <input type="text" id="template-contactform-name" name="template-contactform-name" class="form-control"
+            placeholder="Enter your name" required />
         </div>
-        <div class="form-group">
-          <label class="control-label col-sm-4" for="template-contactform-message">Name of your business</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="template-contactform-message"
-              name="template-contactform-message" placeholder=" Enter the name of your business" required />
-          </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="template-contactform-message">Name of your business</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="template-contactform-message" name="template-contactform-message"
+            placeholder=" Enter the name of your business" required />
         </div>
-        <div class="form-group">
-          <label class="control-label col-sm-4" for="template-contactform-subject">What is the nature of your
-            business</label>
-          <div class="col-sm-10">
-            <input type="text" id="template-contactform-subject" name="template-contactform-subject"
-              class="form-control" placeholder=" Enter the nature of your business" required />
-          </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="template-contactform-subject">What is the nature of your
+          business</label>
+        <div class="col-sm-10">
+          <input type="text" id="template-contactform-subject" name="template-contactform-subject" class="form-control"
+            placeholder=" Enter the nature of your business" required />
         </div>
+      </div>
 
 
 
-        <div class="form-group">
-          <label class="control-label col-sm-4" for="template-contactform-email">Email</label>
-          <div class="col-sm-10">
-            <input type="email" id="template-contactform-email" name="template-contactform-email" class="form-control"
-              placeholder="Enter your email" required />
-          </div>
+      <div class="form-group">
+        <label class="control-label col-sm-4" for="template-contactform-email">Email</label>
+        <div class="col-sm-10">
+          <input type="email" id="template-contactform-email" name="template-contactform-email" class="form-control"
+            placeholder="Enter your email" required />
         </div>
+      </div>
 
-        <div class="form-group">
-          <label class="control-label col-sm-12" for="template-contactform-phone">Mobile Number Where We Can Call
-            You</label>
-          <div class="col-sm-12">
-            <option data-countryCode="IN" value="91"> (+91)</option>
-            <input class=" " type="number" id="template-contactform-phone" name="template-contactform-phone"
-              placeholder="Enter your number" required />
+      <div class="form-group">
+        <label class="control-label col-sm-12" for="template-contactform-phone">Mobile Number Where We Can Call
+          You</label>
+        <div class="col-sm-12">
+          <option data-countryCode="IN" value="91"> (+91)</option>
+          <input class=" " type="number" id="template-contactform-phone" name="template-contactform-phone"
+            placeholder="Enter your number" required />
 
-          </div>
         </div>
+      </div>
 
-        <div class="form-group">
-          <label class="control-label col-sm-4" for=" ">How would you prefer to be contacted?</label>
-          <div class="col-sm-offset-2 col-sm-10">
-            <div class="checkbox">
-              <label><input type="checkbox" id="template-contactform-emailcheckbox" value="yes"
-                  name="template-contactform-emailcheckbox" /> Email</label>
-              <label><input type="checkbox" id="template-contactform-mobilecheckbox" value="yes"
-                  name="template-contactform-mobilecheckbox" /> Mobile</label>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button type="button " id="template-contactform-submit" name="template-contactform-submit"
-              class="button btn-lg mt-3" data-toggle="modal" data-target="#myModal">Submit</button>
-
-          </div>
-        </div>
-
-        <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <div class="checkbox">
-              <label><input type="checkbox" id="template-contactform-remember" value="yes"
-                  name="template-contactform-remember" />Remember me</label>
-            </div>
+      <div class="form-group">
+        <label class="control-label col-sm-4" for=" ">How would you prefer to be contacted?</label>
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label><input type="checkbox" id="template-contactform-emailcheckbox" value="yes"
+                name="template-contactform-emailcheckbox" /> Email</label>
+            <label><input type="checkbox" id="template-contactform-mobilecheckbox" value="yes"
+                name="template-contactform-mobilecheckbox" /> Mobile</label>
           </div>
         </div>
       </div>
-    </form>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="button " id="template-contactform-submit" name="template-contactform-submit"
+            class="button btn-lg mt-3" data-toggle="modal" data-target="#myModal">Submit</button>
+
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label><input type="checkbox" id="template-contactform-remember" value="yes"
+                name="template-contactform-remember" />Remember me</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
   </div>
 
 
